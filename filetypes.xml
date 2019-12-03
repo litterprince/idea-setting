@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.idea;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping ext="vue" type="HTML" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
+      <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
+      <mapping pattern="applicationContext-toolkit.xml" type="spring.factories" />
+    </extensionMap>
+  </component>
+</application>
