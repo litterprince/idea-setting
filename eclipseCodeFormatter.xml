@@ -1,23 +1,13 @@
 <application>
   <component name="EclipseCodeFormatterSettings">
-    <option name="donationNagger">
-      <DonationNagger>
-        <option name="actionsExecuted" value="883" />
-        <option name="firstUsage" value="1556014050851" />
-        <option name="firstUsedVersion" value="18.2.181.000.0-Eclipse_4.9.0" />
-        <option name="lastNaggingDate" value="1560926417558" />
-      </DonationNagger>
-    </option>
     <option name="settingsList">
       <list>
         <Settings>
-          <option name="eclipseVersion" value="ECLIPSE_44" />
           <option name="formatter" value="ECLIPSE" />
           <option name="id" value="1554887389930" />
           <option name="name" value="koo" />
           <option name="pathToConfigFileJava" value="D:/code/javaProject/koolearn/koo-java-formmater-1.1.xml" />
           <option name="selectedJavaProfile" value="koo-java-formmater-1.1" />
-          <option name="useOldEclipseJavaFormatter" value="true" />
         </Settings>
       </list>
     </option>
