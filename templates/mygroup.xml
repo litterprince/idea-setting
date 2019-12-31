@@ -8,7 +8,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="addClass" value="/**&#10; * &lt;p&gt;Title: $className$ &lt;/p&gt;&#10; * &lt;p&gt;Description $END$ &lt;/p&gt;&#10; * &lt;p&gt;Company: http://www.koolearn.com &lt;/p&gt;&#10; * @author wangzhe01@koolearn-inc.com&#10; * @date $date$ $time$&#10; */ " description="add class comment" toReformat="false" toShortenFQNames="true">
+  <template name="addClass" value="/**&#10; * &lt;p&gt;Title: $className$ &lt;/p&gt;&#10; * &lt;p&gt;Description $END$ &lt;/p&gt;&#10; * &lt;p&gt;Company: http://www.koolearn.com &lt;/p&gt;&#10; * @author wangzhe01@koolearn-inc.com&#10; * @date $date$ $time$&#10; */ " description="class annotation" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
