@@ -5,16 +5,16 @@
     <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.ftl" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.js</mask>
     <mask>*.properties</mask>
-    <mask>*.ftl</mask>
     <mask>*.css</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.ftl</mask>
   </component>
 </application>
