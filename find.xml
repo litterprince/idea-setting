@@ -14,8 +14,8 @@
     <mask>*.js</mask>
     <mask>*.properties</mask>
     <mask>*.css</mask>
-    <mask>*.ftl</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.ftl</mask>
   </component>
 </application>
