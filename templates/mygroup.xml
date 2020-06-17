@@ -1,6 +1,6 @@
 <templateSet group="mygroup">
   <template name="*" value="*&#10; * &lt;p&gt;Description: $END$&lt;/p&gt;&#10; * &lt;p&gt;Title: $title$&lt;/p&gt;&#10; * &lt;p&gt;Company: http://www.koolearn.com &lt;/p&gt;&#10; *&#10; * @author wangzhe01@Koolearn-inc.com&#10;$params$&#10; * @date $date$ $time$&#10; */" description="method annotation" toReformat="false" toShortenFQNames="true">
-    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="params" expression="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+=' * @param ' + params[i] + ((i &lt; params.size() - 1) ? '\\n' : '')}; return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="false" />
